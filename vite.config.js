@@ -1,8 +1,8 @@
-import tailwindcss from '@tailwindcss/vite'
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [tailwindcss(), react()],
-  base: "/",
+  base: '/s-f-murshed.github.io/',   // <-- IMPORTANT (repo name)
 })
